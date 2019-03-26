@@ -4,16 +4,17 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "lodash": "4.17.11",
-    "moment": "2.24.0",
+    "babel-eslint": "^10.0.1",
     "chai": "4.2.0",
-    "mocha": "6.0.2",
-    "react": "16.8.5",
     "eslint": "5.8.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-plugin-react": "7.11.1",
+    "lodash": "4.17.11",
+    "mocha": "6.0.2",
+    "moment": "2.24.0",
+    "react": "16.8.5"
   },
   "devDependencies": {},
   "scripts": {
