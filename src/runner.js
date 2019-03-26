@@ -1,5 +1,5 @@
 function run(steps) {
-  return steps * 2;
+  return steps * 3;
 }
 
 module.exports = { run: run };
