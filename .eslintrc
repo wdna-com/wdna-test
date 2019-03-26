@@ -1,0 +1,48 @@
+{
+  "parser": "babel-eslint",
+  "globals": {
+    "_": false,
+    "moment": false,
+    "getStr": false,
+    "$": false,
+    "expect": false,
+    "store": false,
+    "axios": false,
+    "globals": false,
+    "source": false,
+    "CancelToken": false
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "plugins": ["import", "react"],
+  "extends": ["eslint:recommended", "plugin:import/errors", "plugin:react/recommended", "airbnb"],
+  "rules": {
+    "max-len": [2, 120, 2],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "valid-jsdoc": 2,
+    "new-cap": 0,
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "id-length": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "object-curly-newline": 0,
+    "react/destructuring-assignment": 0,
+    "comma-dangle": 0,
+    "arrow-parens": [2, "always", { "requireForBlockBody": true }],
+    "linebreak-style": "off",
+    "no-use-before-define": 0,
+    "jsx-a11y/label-has-for": 0,
+    "no-plusplus": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "no-restricted-globals": 0,
+    "import/prefer-default-export": 0,
+    "arrow-body-style": "off",
+    "consistent-return": "off"
+  }
+}

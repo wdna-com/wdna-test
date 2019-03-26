@@ -8,7 +8,12 @@
     "moment": "2.24.0",
     "chai": "4.2.0",
     "mocha": "6.0.2",
-    "react": "16.8.5"
+    "react": "16.8.5",
+    "eslint": "5.8.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1"
   },
   "devDependencies": {},
   "scripts": {
