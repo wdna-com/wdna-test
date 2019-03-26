@@ -7,7 +7,7 @@ describe("Runner Test", () => {
     const steps = 10;
 
     const output = run(steps);
-    const expected = steps * 3;
+    const expected = steps * 2;
 
     expect(output).to.equal(expected);
     done();
