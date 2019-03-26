@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "app": "node main",
     "test": "mocha __tests__/**/*.test.js"
   },
   "keywords": [],
